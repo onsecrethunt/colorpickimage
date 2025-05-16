@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>How ColorPickImage.com Works</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; background: #f9f9f9; color: #333; }
+    pre { background: #eee; padding: 1rem; overflow-x: auto; border-radius: 5px; }
+    a { color: #0077cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h1>How ColorPickImage.com Works</h1>
+  <p>ColorPickImage.com lets you pick colors from any uploaded image easily.</p>
+  <h2>Simple Color Picker Demo</h2>
+  <p>This snippet creates a color picker input:</p>
+  <pre>
+&lt;input type="color" id="colorPicker" value="#ff0000"&gt;
+&lt;script&gt;
+  const picker = document.getElementById('colorPicker');
+  picker.addEventListener('input', () =&gt; alert('Color picked: ' + picker.value));
+&lt;/script&gt;
+  </pre>
+  <p>Try it live at <a href="https://colorpickimage.com" target="_blank" rel="noopener noreferrer">colorpickimage.com</a></p>
+</body>
+</html>
